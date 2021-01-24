@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1600, 900]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="cikanlar" min="-2" pref="400" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="asansor_3" min="-2" pref="144" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="count_inside3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="capacity3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="direction3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="destination3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="floor3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="mode3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="inside2" alignment="1" min="-2" pref="250" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="asansor_1" min="-2" pref="144" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="count_inside1" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="capacity1" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="direction1" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="destination1" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="floor1" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="mode1" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="inside" min="-2" pref="250" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="zemin" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                              <Component id="kat_4" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                              <Component id="kat_3" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                              <Component id="kat_2" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                              <Component id="kat_1" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="zemin_sira" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                      <Component id="kat_4_sira" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                      <Component id="kat_3_sira" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                      <Component id="kat_2_sira" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                      <Component id="kat_1_sira" alignment="0" min="-2" pref="400" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="asansor_2" min="-2" pref="144" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="count_inside2" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="capacity2" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="direction2" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="destination2" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="floor2" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="mode2" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="inside1" alignment="1" min="-2" pref="250" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="asansor_4" min="-2" pref="144" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="count_inside4" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="capacity4" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="direction4" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="destination4" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="floor4" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="mode4" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="inside3" alignment="1" min="-2" pref="250" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="asansor_5" min="-2" pref="144" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="count_inside5" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="capacity5" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="direction5" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="destination5" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="floor5" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="mode5" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="inside4" alignment="1" min="-2" pref="250" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="zemin" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="kat_1" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="kat_2" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="kat_3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="kat_4" min="-2" pref="27" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="zemin_sira" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="kat_1_sira" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="kat_2_sira" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="kat_3_sira" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="kat_4_sira" min="-2" pref="27" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="cikanlar" min="-2" pref="27" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="mode2" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="floor2" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="destination2" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="asansor_2" alignment="0" max="32767" attributes="0"/>
+                              <Component id="direction2" alignment="0" min="-2" pref="27" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="capacity2" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="count_inside2" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="inside1" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="mode3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="floor3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="destination3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="asansor_3" alignment="0" max="32767" attributes="0"/>
+                              <Component id="direction3" alignment="0" min="-2" pref="27" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="capacity3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="count_inside3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="inside2" min="-2" pref="27" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="mode1" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="floor1" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="destination1" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="asansor_1" max="32767" attributes="0"/>
+                                      <Component id="direction1" pref="27" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="capacity1" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="count_inside1" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="inside" min="-2" pref="27" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="mode4" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="floor4" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="destination4" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="asansor_4" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="direction4" alignment="0" min="-2" pref="27" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="capacity4" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="count_inside4" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="inside3" min="-2" pref="27" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                          <Component id="mode5" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="floor5" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="destination5" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="asansor_5" alignment="0" max="32767" attributes="0"/>
+                              <Component id="direction5" alignment="0" min="-2" pref="27" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="capacity5" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="count_inside5" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="inside4" min="-2" pref="27" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="107" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="zemin">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kat 0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kat_1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kat 1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kat_3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kat 3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kat_2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kat 2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="cikanlar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc7;&#x131;kanlar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kat_4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kat 4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="inside">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="inside"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mode1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="mode"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="capacity1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kapasite : 10"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="floor1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="floor"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="count_inside1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="count_inside"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="destination1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="destination"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="direction1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="direction"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="asansor_1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="AsansorActive 1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="inside1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="inside"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="count_inside2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="count_inside"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="capacity2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kapasite : 10"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="direction2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="direction"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="destination2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="destination"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="floor2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="floor"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mode2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="mode"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="asansor_2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="AsansorActive 2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="inside3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="inside"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="count_inside4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="count_inside"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="capacity4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kapasite : 10"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="direction4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="direction"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="destination4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="destination"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="floor4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="floor"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mode4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="mode"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="asansor_4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="AsansorActive 4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="inside4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="inside"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="count_inside5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="count_inside"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="capacity5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="capacity"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="direction5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="direction"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="destination5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="destination"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="floor5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="floor"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mode5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="mode"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="asansor_5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="AsansorActive 5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="inside2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="inside"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="count_inside3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="count_inside"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="capacity3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kapasite : 10"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="direction3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="direction"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="destination3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="destination"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="floor3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="floor"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mode3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="mode"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="asansor_3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="AsansorActive 3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kat_4_sira">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kat 4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kat_3_sira">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kat 3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kat_2_sira">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kat 2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kat_1_sira">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kat 1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="zemin_sira">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kat 0"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
